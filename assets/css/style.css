@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/bc.jpg");;
+}
+
+
+button {
+  cursor: pointer; }
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: -0.4rem;
+  padding: 2rem 0 1rem 0; }
+
+
+.header {
+  font-family: 'Indie Flower', cursive;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem; }
+  .header .display-1 {
+    color: #252525;
+    font-size: 6.8rem;
+    white-space: nowrap; }
+  .header .accent {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 9rem;
+    animation: Cycler 15s ease infinite; }
+
+.rating {
+  text-transform: uppercase;
+  color: #000000; }
+  .rating .btn-group {
+    font-size: 1rem ;
+    vertical-align: baseline;
+    cursor: pointer;
+    color:black;
+    border-color: #050000;
+    margin-left: .5rem; }
+
+.buttons {
+  font-family: 'Indie Flower', cursive;
+  margin: 1rem 0; }
+  .buttons label > input {
+    cursor: pointer ; }
+  .buttons button {
+    margin: .5rem 1rem .5rem 0;
+    border: 1px solid #030303;
+    background-color: transparent; }
+    .buttons button:hover, .buttons button:active {
+      background-color: transparent;
+      border-color: #070707;
+      color: rgb(0, 0, 0); }
+    .buttons button:focus {
+      background-color: transparent !important;
+      border-color: #070707 !important;
+      color: rgb(0, 0, 0) !important; 
+      box-shadow: none; }
+
+.form-control {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #0a0a0a !important;
+  border-color: #ffffff;
+  transition: all .5s linear; }
+  .form-control:focus {
+    border: 1px solid #ffffff;
+    background-color: rgb(255, 255, 255); }
+  .form-control::-webkit-input-placeholder {
+    font-size: 1.5 rem;
+    color: rgba(0, 0, 0, 0.5) !important; }
+
+.gifs {
+  padding-top: 2rem; }
+  .gifs .card {
+    border: none;
+    background-color: transparent; }
+    .gifs .card img {
+      cursor: pointer;
+      min-width: 100%;
+      max-width: 100%;
+      height: auto; }
+    .gifs .card .card-block {
+      background-color: #f3f3f3;
+      color:black;
+      padding: .75rem 1.25rem;
+      font-size: .85rem; }
+      .gifs .card .card-block a {
+        display: inline-block;
+        margin-right: 1rem;
+        font-size: .9rem;
+        transition: color .2s linear; }
+        .gifs .card .card-block a:hover {
+          text-decoration: none;
+          color: rgb(0, 0, 0); }
+        .gifs .card .card-block a i {
+          margin-right: .3rem; }
+    .gifs .card .card-footer {
+      background-color: white;
+      opacity:0.8;
+      color: rgba(8, 0, 0, 0.8) ;
+      border: none;
+      padding: .35rem 1.25rem;
+      font-size: 0.85rem; }
+  
+
+
+.btn-secondary {
+  font-size: 1rem;
+  cursor: pointer;
+  border-color: rgb(14, 13, 13); }
+  .btn-secondary .active, .btn-secondary .focus {
+    box-shadow: none;
+    border-color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255) ;
+    color: #080808; }
+  .btn-secondary:hover {
+    border-color: rgb(17, 17, 17); }
+
+.btn-secondary.active {
+  box-shadow: none;
+  background-color: rgb(255, 255, 255) ;
+  color: #070707;
+  border-color: rgb(10, 10, 10); }
+
+  footer {
+    position: absolute;
+    bottom: 2;
+    top: 0;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.8em;
+    color: #ffffff;
+    background: none;
+    opacity: 0.5;
+  }
