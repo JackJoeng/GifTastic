@@ -13,18 +13,24 @@ h1 {
   letter-spacing: -0.4rem;
   padding: 2rem 0 1rem 0; }
 
+h3 {
+  font-family: 'Indie Flower', cursive;
+  color: rgb(41, 243, 216) !important;
+}
+
+
 
 .header {
   font-family: 'Indie Flower', cursive;
   padding-bottom: 1rem;
   margin-bottom: 1rem; }
   .header .display-1 {
-    color: #252525;
+    color: #2cf3a7;
     font-size: 6.8rem;
     white-space: nowrap; }
   .header .accent {
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: rgb(247, 243, 44);
     font-weight: bolder;
     font-size: 9rem;
     animation: Cycler 15s ease infinite; }
@@ -47,23 +53,23 @@ h1 {
     cursor: pointer ; }
   .buttons button {
     margin: .5rem 1rem .5rem 0;
-    border: 1px solid #030303;
+    border: 1px solid #f6f880;
     background-color: transparent; }
     .buttons button:hover, .buttons button:active {
       background-color: transparent;
-      border-color: #070707;
-      color: rgb(0, 0, 0); }
+      border-color: #24f13f;
+      color: rgb(47, 192, 236); }
     .buttons button:focus {
       background-color: transparent !important;
-      border-color: #070707 !important;
-      color: rgb(0, 0, 0) !important; 
+      border-color: #28f58e !important;
+      color: rgb(50, 225, 231) !important; 
       box-shadow: none; }
 
 .form-control {
   font-family: 'Indie Flower', cursive;
   font-size: 1.5rem;
   background-color: transparent;
-  color: #0a0a0a !important;
+  color: #88f72e !important;
   border-color: #ffffff;
   transition: all .5s linear; }
   .form-control:focus {
@@ -71,7 +77,7 @@ h1 {
     background-color: rgb(255, 255, 255); }
   .form-control::-webkit-input-placeholder {
     font-size: 1.5 rem;
-    color: rgba(0, 0, 0, 0.5) !important; }
+    color: rgba(242, 245, 62, 0.5) !important; }
 
 .gifs {
   padding-top: 2rem; }

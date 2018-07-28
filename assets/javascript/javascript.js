@@ -71,13 +71,15 @@ function fetchGifs(topic) {
     for (var i = 0; i < gifArray.length; i++) {
       var imgSrc = gifArray[i].images.downsized_still.url;
       var imgLink = gifArray[i].url;
+      var addToFavoriteLink = "https://giphy.com/login?next=/gifs/SignatureEntertainmentUK-steve-coogan-alan-partridge-9GIFTJPwcAU5wRkft7";
       var card = [
         "<div class='card'>",
         "<div class='card-footer card-inverse'>Rating: "+gifArray[i].rating.toUpperCase(),
-        "</div>",
+        " </div>",
         "<img class='card-img-top' src='"+imgSrc+"'>",
         "<div class='card-block'>",
-        "<a href='"+imgLink+"' target='_blank' class=''><i class='fa fa-external-link' aria-hidden='true'></i>Download</a> ",
+        "<a href='"+imgLink+"' target='_blank' class=''><i class='fa fa-external-link' aria-hidden='true'></i>Download on Giphy</a> ",
+        "<a href='"+addToFavoriteLink+"' target='_blank' class=''><i class='fa fa-external-link' aria-hidden='true'></i> Add to My Favorite </a> ",
         "</div>",
         "</div>"
       ];
