@@ -6,6 +6,8 @@ This app uses GIPHY API to make a dynamic web page that populates with gifs of u
 
 ![GIPHY](assets/images/readme.png)
 
+<a href="https://jackjoeng.github.io/GifTastic">Check it out!</a>
+
 
 
 ### Assignment Instructions
